@@ -52,8 +52,8 @@ describe('Inflation Calculator', function() {
       expect($('#endPrice').val()).toEqual("765.01");
     });
     it("adds the parameter minus the '$' to the 'endPrice' input when passed '$435.53'", function() {
-      addPriceToPage("$765.01");
-      expect($('#endPrice').val()).toEqual("765.01");
+      addPriceToPage("$435.53");
+      expect($('#endPrice').val()).toEqual("435.53");
     });
   });
 
